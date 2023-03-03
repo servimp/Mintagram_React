@@ -1,7 +1,7 @@
 # Mintagram_React
 Front-end for the Mintagram APP in React
 
-# Requisites: Install and start first the back-end server in express which runs in port 5000.
+### Requisites: Install and start first the back-end server in express which runs in port 5000.
 
 1. Clone the repository.
 2. Run: `npm install`
