@@ -7,7 +7,7 @@ Front-end for the Mintagram APP in React
 2. Run: `npm install`
 3. Run: `npm start`
 4. In order to post you must log in using one of the following two users
-| User | Password |
-| --- | --- |
+
 | @timbr | 12345 |
+
 | @Phant | 67890 |
