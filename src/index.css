@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+
+body {
+  height: 100vh;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+}
+
+.logo {
+  font-family: 'Oleo Script', cursive;
+}
+
+.h-10 {
+  height: 9vh;
+}
+
+.h-80 {
+  height: 82vh;
+}
+
+.img-div {
+  width: 100%; /* Set the width of the square div */
+  height: 0;
+  padding-bottom: 100%; /* Set the height equal to the width */
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-mintagram {
+  background-image: url('./images/mintagram.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  
+.create-post {
+  display: block;
+}
