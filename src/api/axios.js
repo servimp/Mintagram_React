@@ -3,7 +3,8 @@ import axios from 'axios'
 const API_BASE_URL = process.env.REACT_APP_API_URL 
 
 export const api = axios.create({
-    baseURL: "https://mintagramexpress-production.up.railway.app/",
+    baseURL: API_BASE_URL,
+    // Railway URL https://mintagramexpress-production.up.railway.app/
     withCredentials: true
 })
 
